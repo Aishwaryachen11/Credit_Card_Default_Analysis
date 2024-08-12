@@ -1,10 +1,13 @@
 Credit Card Default Prediction and Data Analysis: A Comprehensive Study
-Abstract
+
+Abstract:
 This paper presents a comprehensive study on the predictive modelling of credit risk using various machine learning techniques. The study includes data preprocessing, model training, evaluation using multiple metrics, and comparison of model performance. The primary goal is to predict the likelihood of default for potential borrowers, with a detailed analysis of model performance metrics such as accuracy, precision, recall, F1-score, and ROC AUC.
-Introduction
+Introduction:
 Credit risk is a critical aspect of financial risk management. It refers to the risk of a borrower defaulting on a loan. Accurate prediction of credit risk is essential for financial institutions to make informed lending decisions. This paper explores the use of various machine learning models to predict credit risk and compares their performance.
-Data Preprocessing
-Data Loading
+Data Preprocessing:
+
+Data Loading:
+
 The datasets for training and testing were loaded and combined to ensure consistent encoding of categorical variables.
 Handling Missing Values
 The datasets were checked for missing values, and missing values in the target variable were filled with the mode.
@@ -22,7 +25,8 @@ The performance metrics for the various models are summarized in a table.
 
 ![image](https://github.com/user-attachments/assets/3335a6e6-06fe-42a5-9400-bfbdf359cc37)
  
-Analysis and Conclusion
+Analysis and Conclusion:
+
 Analysis
 The performance of various machine learning models was evaluated based on accuracy and ROC AUC scores. The ROC curves provide a visual representation of the trade-off between true positive rate and false positive rate for each model
 Actionable Insights and Recommendations
