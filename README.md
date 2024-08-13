@@ -81,7 +81,7 @@ Insights for American Express: The analysis provided actionable recommendations 
 
 The ROC curves for the various models are plotted to visualize the trade-off between true positive rate and false positive rate.
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="500"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="600"/>
 
 Summary Table
 The performance metrics for the various models are summarized in a table.
@@ -142,6 +142,7 @@ Based on the comprehensive analysis and model evaluation, the following actionab
 **9. Customer Segmentation**
     	Use model insights to segment customers based on risk levels. This segmentation can drive more targeted marketing efforts, personalized loan products, and differentiated interest rates based on risk profiles.
     	High-Risk Customer Management: Develop specific strategies for managing high-risk customers, such as offering smaller loans with higher interest rates or requiring additional collateral.
+     
 **10. Future Research and Model Enhancement**
     	Hyperparameter Tuning: While the models used in this study provided strong results, further tuning of hyperparameters, especially in XGBoost and Random Forest, could yield even better performance.
     	Model Explainability: Invest in research and development of explainable AI (XAI) methods to make complex models more transparent, which is increasingly becoming a regulatory requirement in finance.
@@ -194,7 +195,7 @@ o	Early Warning Systems: Develop early warning systems that flag customers who c
 
 **5. Net Monthly Income by Occupation Type (Bar Chart)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Net%20Monthly%20Income%20by%20Occupation%20Type.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Net%20Monthly%20Income%20by%20Occupation%20Type.jpg" alt="Description" width="600"/>
  
 •	**Insight:** Income levels vary significantly across different occupation types, with certain occupations like Managers and IT Staff earning higher than others, such as Laborers and Cleaning Staff. Higher-income occupations generally show lower default rates, while lower-income occupations may have higher default rates.
 
@@ -219,7 +220,7 @@ The exploratory data analysis provides valuable insights into the patterns and f
 
 **1. Net Yearly Income, No. of Days Employed, Yearly Debt Payments (Box Plots)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Plot%201.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Plot%201.jpg" alt="Description" width="550"/>
  
 •	**Insight:**
 o	Net Yearly Income: The net yearly income box plot shows a large number of outliers on the higher end, indicating that while most individuals have moderate incomes, a few individuals earn significantly more. The majority of the data is concentrated at the lower end of the income spectrum.
@@ -236,19 +237,19 @@ o	Debt Repayment Strategies: Develop personalized debt repayment plans for borro
 
 **2. Credit Limit and Credit Score (Box Plots)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Pot%202.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Pot%202.jpg" alt="Description" width="550"/>
  
 •	**Insight:**
-o	Credit Limit: The credit limit box plot reveals that most borrowers have relatively low credit limits, but there are outliers with significantly higher limits. This could indicate that a small portion of the population is being offered much higher credit limits, possibly due to higher income or better creditworthiness.
-o	Credit Score: The box plot for credit scores shows a wide range, with most borrowers falling between a credit score of 600 and 900. A higher credit score is generally indicative of better creditworthiness.
+Credit Limit: The credit limit box plot reveals that most borrowers have relatively low credit limits, but there are outliers with significantly higher limits. This could indicate that a small portion of the population is being offered much higher credit limits, possibly due to higher income or better creditworthiness.
+Credit Score: The box plot for credit scores shows a wide range, with most borrowers falling between a credit score of 600 and 900. A higher credit score is generally indicative of better creditworthiness.
 •	Trend:
-o	Higher credit limits are granted to a select few, likely those with higher income or better credit histories.
-o	Credit scores vary widely among borrowers, highlighting the diverse credit profiles within the dataset.
+Higher credit limits are granted to a select few, likely those with higher income or better credit histories.
+Credit scores vary widely among borrowers, highlighting the diverse credit profiles within the dataset.
 
 •	**Recommendation:**
-o	Credit Limit Adjustment: Regularly reassess and adjust credit limits based on changes in borrowers’ financial circumstances and credit behavior. This will help in managing risk and maintaining healthy credit exposure.
-o	Credit Scoring Enhancements: Consider using advanced credit scoring models that incorporate more dynamic factors such as recent financial behavior and broader financial data to provide a more accurate assessment of creditworthiness.
-o	Customer Education: Financial institutions should provide credit education programs to help customers understand the factors that affect their credit score and how to improve it, which can lead to better credit management and reduced default risk.
+Credit Limit Adjustment: Regularly reassess and adjust credit limits based on changes in borrowers’ financial circumstances and credit behavior. This will help in managing risk and maintaining healthy credit exposure.
+Credit Scoring Enhancements: Consider using advanced credit scoring models that incorporate more dynamic factors such as recent financial behavior and broader financial data to provide a more accurate assessment of creditworthiness.
+Customer Education: Financial institutions should provide credit education programs to help customers understand the factors that affect their credit score and how to improve it, which can lead to better credit management and reduced default risk.
 
 **Conclusion**
 The box plots provide a deeper understanding of the distribution of key financial variables within the dataset, highlighting outliers and trends that could impact credit risk management strategies. By implementing the recommendations derived from these insights, financial institutions can better manage risk, improve customer segmentation, and tailor financial products to meet the diverse needs of their customers.
