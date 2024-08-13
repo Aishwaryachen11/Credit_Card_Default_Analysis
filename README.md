@@ -1,4 +1,4 @@
-**Credit Card Default Prediction and Data Analysis, case of American Express Dataset**
+**CREDIT CARD DEFAULT PREDICTION AND DATA ANALYSIS, CASE OF AMAERICAN EXPRESS DATASET**
 
 **Introduction**:
 Credit risk management is a cornerstone of financial stability for institutions like American Express, where the ability to accurately predict defaults is critical. Poor credit risk management can lead to significant financial losses, eroding profitability and undermining customer trust. This project addresses these challenges by leveraging advanced machine learning techniques to predict credit card defaults.
@@ -32,6 +32,7 @@ Credit risk management is a cornerstone of financial stability for institutions 
 **Actionable Insights and Recommendations:** Based on the results from EDA and model evaluations, actionable insights were generated. These insights are intended to inform American Express's credit risk management strategies, including refining credit scoring systems, implementing risk-based pricing, and developing targeted financial products for different customer segments.
 
 **Set of Analysis Performed:**
+
 **Exploratory Data Analysis (EDA):** Conducted to identify trends, correlations, and outliers that could impact model performance.
 
 **Feature Importance Analysis:** Performed using ensemble models like Random Forest and XGBoost to determine the most influential features in predicting defaults.
@@ -41,6 +42,7 @@ Credit risk management is a cornerstone of financial stability for institutions 
 **Model Comparison:** ROC curves were plotted to visually compare the models' ability to differentiate between defaulters and non-defaulters.
 
 **Tools and Technologies Used:**
+
 **Python Programming Language:** Python was used for all aspects of the project, including data processing, analysis, and modeling.
 **Libraries:**
 Pandas: For data manipulation and analysis.
@@ -79,12 +81,12 @@ Insights for American Express: The analysis provided actionable recommendations 
 
 The ROC curves for the various models are plotted to visualize the trade-off between true positive rate and false positive rate.
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="450"/>
+                               <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="500"/>
 
 Summary Table
 The performance metrics for the various models are summarized in a table.
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="400"/>
+                               <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="450"/>
 
  
 **Analysis and Conclusion:**
@@ -152,7 +154,7 @@ Actionable Insights, Trends, and Strategic Recommendations from EDA:
 
 **1. Defaulter Ratio (Pie Chart)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Defaulter%20Ratio.jpg" alt="Description" width="400"/>
+                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Defaulter%20Ratio.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The defaulter ratio indicates that only 8.2% of the borrowers defaulted on their credit cards, while 91.8% did not default. This shows a significant class imbalance in the dataset. A low defaulter rate is observed, which is common in credit risk datasets as most customers generally repay their debts.
 
@@ -162,7 +164,7 @@ Risk Management: Although the defaulter rate is low, financial institutions shou
 
 **2. Age Distribution (Density Plot)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Age%20Distribution.jpg" alt="Description" width="400"/>
+                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Age%20Distribution.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The age distribution of the borrowers is fairly uniform across the age ranges of 20 to 55, with noticeable peaks around the ages of 30 and 55. Borrowers in their early 30s and mid-50s represent significant portions of the dataset, potentially indicating life stages associated with higher financial activity (e.g., buying homes, retirement planning).
 
@@ -172,8 +174,7 @@ Risk Profiling: Age can be a factor in credit risk profiling. Institutions shoul
 
 **3. Credit Score vs. Credit Card Default (Box Plot)**
 
-
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20Score%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="400"/>
+                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20Score%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The box plot shows that individuals who defaulted have significantly lower credit scores (around 600) compared to those who did not default (around 800). A clear inverse relationship between credit score and default risk is observed, with lower credit scores being associated with a higher likelihood of default.
 
