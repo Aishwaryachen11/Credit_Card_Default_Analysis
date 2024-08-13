@@ -81,12 +81,12 @@ Insights for American Express: The analysis provided actionable recommendations 
 
 The ROC curves for the various models are plotted to visualize the trade-off between true positive rate and false positive rate.
 
-                               <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="500"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="500"/>
 
 Summary Table
 The performance metrics for the various models are summarized in a table.
 
-                               <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="450"/>
 
  
 **Analysis and Conclusion:**
@@ -154,7 +154,7 @@ Actionable Insights, Trends, and Strategic Recommendations from EDA:
 
 **1. Defaulter Ratio (Pie Chart)**
 
-                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Defaulter%20Ratio.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Defaulter%20Ratio.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The defaulter ratio indicates that only 8.2% of the borrowers defaulted on their credit cards, while 91.8% did not default. This shows a significant class imbalance in the dataset. A low defaulter rate is observed, which is common in credit risk datasets as most customers generally repay their debts.
 
@@ -164,7 +164,7 @@ Risk Management: Although the defaulter rate is low, financial institutions shou
 
 **2. Age Distribution (Density Plot)**
 
-                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Age%20Distribution.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Age%20Distribution.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The age distribution of the borrowers is fairly uniform across the age ranges of 20 to 55, with noticeable peaks around the ages of 30 and 55. Borrowers in their early 30s and mid-50s represent significant portions of the dataset, potentially indicating life stages associated with higher financial activity (e.g., buying homes, retirement planning).
 
@@ -174,7 +174,7 @@ Risk Profiling: Age can be a factor in credit risk profiling. Institutions shoul
 
 **3. Credit Score vs. Credit Card Default (Box Plot)**
 
-                                  <img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20Score%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="450"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20Score%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The box plot shows that individuals who defaulted have significantly lower credit scores (around 600) compared to those who did not default (around 800). A clear inverse relationship between credit score and default risk is observed, with lower credit scores being associated with a higher likelihood of default.
 
@@ -184,7 +184,7 @@ Risk-Based Pricing: Implement risk-based pricing strategies where borrowers with
 
 **4. Credit Limit Used vs. Credit Card Default (Box Plot)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20limit%20Used%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Credit%20limit%20Used%20Vs%20Credit%20Card%20Default.jpg" alt="Description" width="450"/>
  
 •	**Insight:** Defaulters typically use a much higher percentage of their credit limit (around 80-90%) compared to non-defaulters (around 40-60%). High utilization of credit limits is a strong indicator of financial distress and increased default risk.
 
@@ -194,7 +194,7 @@ o	Early Warning Systems: Develop early warning systems that flag customers who c
 
 **5. Net Monthly Income by Occupation Type (Bar Chart)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Net%20Monthly%20Income%20by%20Occupation%20Type.jpg" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Net%20Monthly%20Income%20by%20Occupation%20Type.jpg" alt="Description" width="450"/>
  
 •	**Insight:** Income levels vary significantly across different occupation types, with certain occupations like Managers and IT Staff earning higher than others, such as Laborers and Cleaning Staff. Higher-income occupations generally show lower default rates, while lower-income occupations may have higher default rates.
 
@@ -204,7 +204,7 @@ o	Income Verification: Ensure robust income verification processes are in place,
 
 **6. Gender Distribution and Default (Bar Chart)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Gender%20Distribution%20Vs%20Default.jpg" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Gender%20Distribution%20Vs%20Default.jpg" alt="Description" width="450"/>
  
 •	**Insight:** The majority of the dataset comprises female borrowers, with both genders showing a relatively low default rate. However, a slight imbalance is observed with more female borrowers represented. Gender distribution suggests that both male and female borrowers are equally prone to default, with no significant gender-based bias in default rates.
 
@@ -219,7 +219,7 @@ The exploratory data analysis provides valuable insights into the patterns and f
 
 **1. Net Yearly Income, No. of Days Employed, Yearly Debt Payments (Box Plots)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Plot%201.jpg" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Plot%201.jpg" alt="Description" width="450"/>
  
 •	**Insight:**
 o	Net Yearly Income: The net yearly income box plot shows a large number of outliers on the higher end, indicating that while most individuals have moderate incomes, a few individuals earn significantly more. The majority of the data is concentrated at the lower end of the income spectrum.
@@ -236,7 +236,7 @@ o	Debt Repayment Strategies: Develop personalized debt repayment plans for borro
 
 **2. Credit Limit and Credit Score (Box Plots)**
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Pot%202.jpg" alt="Description" width="400"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Box%20Pot%202.jpg" alt="Description" width="450"/>
  
 •	**Insight:**
 o	Credit Limit: The credit limit box plot reveals that most borrowers have relatively low credit limits, but there are outliers with significantly higher limits. This could indicate that a small portion of the population is being offered much higher credit limits, possibly due to higher income or better creditworthiness.
