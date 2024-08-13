@@ -1,4 +1,4 @@
-# **CREDIT CARD DEFAULT PREDICTION AND DATA ANALYSIS, CASE OF AMAERICAN EXPRESS DATASET**
+### **CREDIT CARD DEFAULT PREDICTION AND DATA ANALYSIS, CASE OF AMAERICAN EXPRESS DATASET**
 
 **Introduction**:
 Credit risk management is a cornerstone of financial stability for institutions like American Express, where the ability to accurately predict defaults is critical. Poor credit risk management can lead to significant financial losses, eroding profitability and undermining customer trust. This project addresses these challenges by leveraging advanced machine learning techniques to predict credit card defaults.
