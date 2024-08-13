@@ -79,12 +79,12 @@ Insights for American Express: The analysis provided actionable recommendations 
 
 The ROC curves for the various models are plotted to visualize the trade-off between true positive rate and false positive rate.
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="300"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/ROC%20curve.jpg" alt="Description" width="400"/>
 
 Summary Table
 The performance metrics for the various models are summarized in a table.
 
-<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="300"/>
+<img src="https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Images/Summary%20Table.jpg" alt="Description" width="400"/>
 
  
 **Analysis and Conclusion:**
