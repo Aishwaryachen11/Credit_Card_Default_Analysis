@@ -56,6 +56,8 @@ Model Interpretability: While XGBoost provided the highest accuracy, Logistic Re
 Insights for American Express: The analysis provided actionable recommendations for improving credit risk management, including risk-based pricing, credit limit adjustments, and targeted financial products for different customer segments.
 
 **IMPLEMENTATION:**
+Use this link to access with the notebook in Google Colab : [Open Colab Notebook](https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Credit_Card_Default_Prediction.ipynb)
+
 **Data Preprocessing:**
 
 **Data Loading:** The datasets for training and testing were loaded and combined to ensure consistent encoding of categorical variables.
@@ -140,6 +142,8 @@ Based on the comprehensive analysis and model evaluation, the following actionab
 By implementing these recommendations, financial institutions can significantly enhance their credit risk management practices, leading to more accurate lending decisions, reduced default rates, and improved overall financial stability.
 
 **EXPLORATORY DATA ANALYSIS**
+
+Use this link to access with the notebook in Google Colab : [Open Colab Notebook](https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Credit_Card_Default_Data_EDA.ipynb)
 
 Actionable Insights, Trends, and Strategic Recommendations from EDA:
 
