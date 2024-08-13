@@ -23,23 +23,13 @@ Credit risk management is a cornerstone of financial stability for institutions 
 
 **Data Preprocessing:** The American Express dataset was meticulously prepared by addressing missing values, encoding categorical variables, and standardizing numerical features. Stratified sampling was employed to ensure a balanced representation of defaulters and non-defaulters in the training and test sets.
 
-**Exploratory Data Analysis (EDA):** Comprehensive EDA was conducted, involving the creation of visualizations like pie charts, box plots, and bar charts. These visualizations were essential for understanding the distribution of key variables and their relationship with credit defaults, helping to identify potential risk factors and data anomalies.
+**Exploratory Data Analysis (EDA):** Comprehensive EDA was conducted,identify trends, correlations, and outliers that could impact model performance, involving the creation of visualizations like pie charts, box plots, and bar charts. These visualizations were essential for understanding the distribution of key variables and their relationship with credit defaults, helping to identify potential risk factors and data anomalies.
 
-**Model Training and Evaluation:** Several machine learning models—Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors (KNN), and XGBoost—were trained on the processed data. Each model’s performance was rigorously evaluated using metrics such as accuracy, precision, recall, F1-score, and ROC AUC.
+**Model Training and Evaluation:** Several machine learning models—Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors (KNN), and XGBoost—were trained on the processed data. Performed using ensemble models like Random Forest and XGBoost to determine the most influential features in predicting defaults Each model’s performance was rigorously evaluated using metrics such as accuracy, precision, recall, F1-score, and ROC AUC.
 
-**Model Comparison:** The performance of each model was systematically compared using ROC curves and a summary table of evaluation metrics to identify the most accurate and reliable model for predicting credit risk.
+**Model Comparison:** ROC curves were plotted to visually compare the models' ability to differentiate between defaulters and non-defaulters. The performance of each model was systematically compared using ROC curves and a summary table of evaluation metrics to identify the most accurate and reliable model for predicting credit risk.
 
 **Actionable Insights and Recommendations:** Based on the results from EDA and model evaluations, actionable insights were generated. These insights are intended to inform American Express's credit risk management strategies, including refining credit scoring systems, implementing risk-based pricing, and developing targeted financial products for different customer segments.
-
-**Set of Analysis Performed:**
-
-**Exploratory Data Analysis (EDA):** Conducted to identify trends, correlations, and outliers that could impact model performance.
-
-**Feature Importance Analysis:** Performed using ensemble models like Random Forest and XGBoost to determine the most influential features in predicting defaults.
-
-**Performance Metrics Evaluation:** Calculated metrics such as accuracy, precision, recall, F1-score, and ROC AUC to assess model performance.
-
-**Model Comparison:** ROC curves were plotted to visually compare the models' ability to differentiate between defaulters and non-defaulters.
 
 **Tools and Technologies Used:**
 
