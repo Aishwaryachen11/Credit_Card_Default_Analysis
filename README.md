@@ -29,7 +29,7 @@ Credit risk management is a cornerstone of financial stability for institutions 
 
 **Model Comparison:** The performance of each model was systematically compared using ROC curves and a summary table of evaluation metrics to identify the most accurate and reliable model for predicting credit risk.
 
-Actionable Insights and Recommendations: Based on the results from EDA and model evaluations, actionable insights were generated. These insights are intended to inform American Express's credit risk management strategies, including refining credit scoring systems, implementing risk-based pricing, and developing targeted financial products for different customer segments.
+**Actionable Insights and Recommendations:** Based on the results from EDA and model evaluations, actionable insights were generated. These insights are intended to inform American Express's credit risk management strategies, including refining credit scoring systems, implementing risk-based pricing, and developing targeted financial products for different customer segments.
 
 **Set of Analysis Performed:**
 **Exploratory Data Analysis (EDA):** Conducted to identify trends, correlations, and outliers that could impact model performance.
@@ -51,8 +51,8 @@ XGBoost: For training the XGBoost model, known for its performance on structured
 LightGBM (if used): For training the LightGBM model, another powerful gradient boosting framework.
 
 **Machine Learning Algorithms Used:**
-**Logistic Regression:** A baseline linear model used for binary classification and understanding the impact of features on the likelihood of default.
 
+**Logistic Regression:** A baseline linear model used for binary classification and understanding the impact of features on the likelihood of default.
 **Decision Tree:** A non-linear model that splits data into branches to make predictions based on feature values.
 **Random Forest:** An ensemble learning method that builds multiple decision trees and aggregates their predictions to improve accuracy and robustness.
 **K-Nearest Neighbors (KNN):** A non-parametric algorithm that classifies instances based on the majority class among the nearest neighbors.
@@ -78,12 +78,12 @@ Insights for American Express: The analysis provided actionable recommendations 
 **ROC Curve**:
 
 The ROC curves for the various models are plotted to visualize the trade-off between true positive rate and false positive rate.
- ![image](https://github.com/user-attachments/assets/5db1fa76-2441-4dae-b967-583d050ec38f)
+
 
 Summary Table
 The performance metrics for the various models are summarized in a table.
 
-![image](https://github.com/user-attachments/assets/3335a6e6-06fe-42a5-9400-bfbdf359cc37)
+
  
 **Analysis and Conclusion:**
 
