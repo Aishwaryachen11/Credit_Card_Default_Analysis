@@ -58,6 +58,8 @@ Insights for American Express: The analysis provided actionable recommendations 
 **IMPLEMENTATION:**
 Use this link to access with the notebook in Google Colab : [Open Colab Notebook](https://github.com/Aishwaryachen11/Credit_Card_Default_Analysis/blob/main/Credit_Card_Default_Prediction.ipynb)
 
+The dataset is taken from Kaggle: https://www.kaggle.com/datasets/pradip11/amexpert-codelab-2021
+
 **Data Preprocessing:**
 
 **Data Loading:** The datasets for training and testing were loaded and combined to ensure consistent encoding of categorical variables.
