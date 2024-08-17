@@ -19,18 +19,6 @@ The analysis is crucial for several reasons:
 **Objective**:
 Credit risk management is a cornerstone of financial stability for institutions like American Express, where the ability to accurately predict defaults is critical. Poor credit risk management can lead to significant financial losses, eroding profitability and undermining customer trust. This project addresses these challenges by leveraging advanced machine learning techniques to predict credit card defaults. This project aims to develop, compare, and validate multiple machine learning models to identify the most effective approach for accurately assessing credit risk. The focus is not only on achieving high predictive accuracy but also on understanding the underlying factors that contribute to borrower defaults. By identifying these factors, financial institutions can make informed decisions to mitigate risk, optimize credit offerings, and implement proactive risk management strategies. The study includes data preprocessing, model training, evaluation using multiple metrics, and comparison of model performance. The primary goal is to predict the likelihood of default for potential borrowers, with a detailed analysis of model performance metrics such as accuracy, precision, recall, F1-score, and ROC AUC.
 
-**Steps:**
-
-**Data Preprocessing:** The American Express dataset was meticulously prepared by addressing missing values, encoding categorical variables, and standardizing numerical features. Stratified sampling was employed to ensure a balanced representation of defaulters and non-defaulters in the training and test sets.
-
-**Exploratory Data Analysis (EDA):** Comprehensive EDA was conducted,identify trends, correlations, and outliers that could impact model performance, involving the creation of visualizations like pie charts, box plots, and bar charts. These visualizations were essential for understanding the distribution of key variables and their relationship with credit defaults, helping to identify potential risk factors and data anomalies.
-
-**Model Training and Evaluation:** Several machine learning models—Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors (KNN), and XGBoost—were trained on the processed data. Performed using ensemble models like Random Forest and XGBoost to determine the most influential features in predicting defaults Each model’s performance was rigorously evaluated using metrics such as accuracy, precision, recall, F1-score, and ROC AUC.
-
-**Model Comparison:** ROC curves were plotted to visually compare the models' ability to differentiate between defaulters and non-defaulters. The performance of each model was systematically compared using ROC curves and a summary table of evaluation metrics to identify the most accurate and reliable model for predicting credit risk.
-
-**Actionable Insights and Recommendations:** Based on the results from EDA and model evaluations, actionable insights were generated. These insights are intended to inform American Express's credit risk management strategies, including refining credit scoring systems, implementing risk-based pricing, and developing targeted financial products for different customer segments.
-
 **Tools and Technologies Used:**
 
 **Python Programming Language:** Python was used for all aspects of the project, including data processing, analysis, and modeling.
